@@ -5,7 +5,7 @@ import navPic from './assets/navLogo.png';
 
 export default function NavBer() {
   return (
-    <div className='w-full bg-[#07070A] flex justify-between'>
+    <div className='w-full bg-[#07070A] flex justify-between p-4'>
 
         <img className='w-[306px] h-[60px]' src={navPic} alt="" />
 
