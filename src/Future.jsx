@@ -10,7 +10,7 @@ export default function Future() {
 
 <div className='border-[#FFFFFF] border-2 rounded-[44px] border-solid w-[537px] h-[45px] m-8 justify-center items-center'>
 
-    <p className='text-center font-bold text-2xl text-[#FFFFFF]'>
+    <p className='text-center font-bold text-2xl text-[#FFFFFF] font-inter'>
         PRESALE LIVE
     </p>
 
@@ -18,25 +18,25 @@ export default function Future() {
 
 <p className='text-[#00CC55] font-bold text-xl'>RAISED $45487 / $566465</p>
 
-<p className='w-[463px] h-[13px] bg-gradient-to-r from-[#00CC55] via-[#79FF9E] to-[#00CC55] rounded-[15px] ml-16 mt-4'></p>
+<p className='font-inter w-[463px] h-[13px] bg-gradient-to-r from-[#00CC55] via-[#79FF9E] to-[#00CC55] rounded-[15px] ml-16 mt-4'></p>
 
-<div className='flex justify-between font-bold text-[#FFFFFF] w-[463px] ml-16 mt-3'>
+<div className='font-inter flex justify-between font-bold text-[#FFFFFF] w-[463px] ml-16 mt-3'>
 
 <p>CURRENT PRICE: $0.002</p>
 <p>NEXT STAGE PRICE: $0.002</p>
 
 </div>
 
-<p className='font-bold text-xl text-[#FFFFFF] mt-3'>Buy in before price increase!Listing soon</p>
+<p className='font-inter font-bold text-xl text-[#FFFFFF] mt-3'>Buy in before price increase!Listing soon</p>
 
 <div className='w-[537px] h-[113px] flex justify-between mt-8 ml-10'>
 
 <div className='w-[254px] h-[113px]'>
 
-    <p className='text-[#FFFFFF] relative mr-44 text-[18px] mb-1'>You pay</p>
+    <p className='text-[#FFFFFF] relative mr-44 text-[18px] mb-1 font-inter'>You pay</p>
     <div className='w-254px h-75px border-[#00CC55] border-2 border-solid rounded-[5px] w-[254px] h-[75px] bg-[rgba(60,255,113,0.12)] flex justify-between items-center p-1'>
 
-        <p className='text-[#FFFFFF] font-bold text-[26px]'>0</p>
+        <p className='text-[#FFFFFF] font-bold text-[26px] font-inter'>0</p>
         <img className='w-[25px] h-[25px]' src={youPay} alt="" />
 
     </div>
@@ -46,10 +46,10 @@ export default function Future() {
 </div>
 
 <div className='w-[254px] h-[113px]'>
-        <p className='text-[#FFFFFF] relative mr-32 text-[18px] mb-1'>You Receive</p>
+        <p className='text-[#FFFFFF] relative mr-32 text-[18px] mb-1 font-inter'>You Receive</p>
     <div className='w-254px h-75px border-[#00CC55] border-2 border-solid rounded-[5px] w-[254px] h-[75px] bg-[rgba(60,255,113,0.12)] flex justify-between items-center p-1'>
 
-        <p className='text-[#FFFFFF] font-bold text-[26px]'>0</p>
+        <p className='text-[#FFFFFF] font-bold text-[26px] font-inter'>0</p>
         <img className='w-[25px] h-[25px]' src={Coin} alt="" />
 
     </div>
@@ -66,11 +66,11 @@ export default function Future() {
 
 
 <div className='w-[628px] h-[335px]'>
-     <h1 className="text-5xl p-1 font-bold bg-gradient-to-r from-[#C5FFA9] to-[#00CC55] bg-clip-text text-transparent w-[597px] h-[180px]">
+     <h1 className="text-5xl p-1 font-bold bg-gradient-to-r from-[#C5FFA9] to-[#00CC55] bg-clip-text text-transparent w-[597px] h-[180px] font-openSans">
   KinkajouCoin: A <br></br> Greener Future in <br></br> Your Wallet
 </h1>
 
-<p className='text-[#C3C3C3] font-semibold'>
+<p className='text-[#C3C3C3] font-semibold font-openSans'>
     Take control of your digital assets while supporting the planet.  KinkajouCoin is a forward-thinking cryptocurrency designed for sustainability, empowering eco-conscious transactions on the blockchain.
 </p>
 </div>

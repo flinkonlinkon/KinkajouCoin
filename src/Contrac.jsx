@@ -9,9 +9,9 @@ export default function Contrac() {
   return (
     <div className='text-center mt-24'>
 
-        <h1 className='text-5xl text-[#FFFFFF] font-semibold mb-8'>Contact Us</h1>
+        <h1 className='text-5xl text-[#FFFFFF] font-semibold mb-8 font-montserrat'>Contact Us</h1>
 
-        <p className='text-[#EEEEEE]'>Email us at <p className='text-[#00FF06]'>support@kinkajoucoin.com</p> for any 
+        <p className='text-[#EEEEEE] font-montserrat'>Email us at <p className='text-[#00FF06] font-montserrat'>support@kinkajoucoin.com</p> for any 
 queries or support</p>
 
 <div className='flex gap-3 justify-center items-center mt-6'>
@@ -25,8 +25,8 @@ queries or support</p>
 
 
 <div className='flex gap-7 text-xs'>
-    <p className='text-[#FFFFFF]'>Privacy Policy</p>
-    <p className='text-[#FFFFFF]'>Cookie Policy</p>
+    <p className='text-[#FFFFFF] font-montserrat'>Privacy Policy</p>
+    <p className='text-[#FFFFFF] font-montserrat'>Cookie Policy</p>
 </div>
       
     </div>

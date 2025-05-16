@@ -5,7 +5,17 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        inter: ['Inter', 'sans-serif'],
+        montserrat: ['Montserrat', 'sans-serif'],
+        openSans: ['"Open Sans"', 'sans-serif'],
+        poppins: ['Poppins', 'sans-serif'],
+      },
+       animation: {
+    'spin-slow': 'spin 3s linear infinite',
+  },
+    },
   },
   plugins: [require('daisyui'),],
 }

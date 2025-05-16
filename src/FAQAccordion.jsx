@@ -42,9 +42,9 @@ export default function FAQAccordion() {
         <div className='flex justify-center items-center'>
             <img className='object-cover w-4 h-4' src={star} alt="" />
 
-             <h1 className='text-[#3CFF71] font-medium text-2xl'>FAQ’s</h1>
+             <h1 className='text-[#3CFF71] font-medium text-2xl font-poppins'>FAQ’s</h1>
         </div>
-        <h1 className="text-5xl text-[#FFFFFF] mt-3 mb-6 font-semibold">Frequently Asked Questions</h1>
+        <h1 className="text-3xl text-[#FFFFFF] mt-3 mb-6 font-semibold font-poppins text-center">Frequently Asked Questions</h1>
       {faqs.map((faq, index) => (
         <div
           key={index}
@@ -56,7 +56,7 @@ export default function FAQAccordion() {
             className="flex justify-between items-center cursor-pointer p-4"
             onClick={() => toggleFAQ(index)}
           >
-            <span className={`text-[20px] font-medium ${openIndex === index ? "text-green-400" : "text-gray-200"}`}>
+            <span className={`text-[20px] font-inter font-medium ${openIndex === index ? "text-green-400" : "text-gray-200"}`}>
               {index + 1}. {faq.question}
             </span>
             {openIndex === index ? (
@@ -67,7 +67,7 @@ export default function FAQAccordion() {
           </div>
 
           {openIndex === index && faq.answer && (
-            <div className="px-4 pb-4 text-sm text-gray-300 leading-relaxed">
+            <div className="px-4 pb-4 text-sm text-gray-300 leading-relaxed font-poppins">
               {faq.answer}
             </div>
           )}
