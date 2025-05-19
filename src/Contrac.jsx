@@ -9,7 +9,7 @@ export default function Contrac() {
   return (
     <div className='text-center mt-24'>
 
-        <h1 className='text-5xl text-[#FFFFFF] font-semibold mb-8 font-montserrat'>Contact Us</h1>
+        <h1 className='text-4xl text-[#FFFFFF] font-semibold mb-8 font-montserrat'>Contact Us</h1>
 
         <p className='text-[#EEEEEE] font-montserrat'>Email us at <p className='text-[#00FF06] font-montserrat'>support@kinkajoucoin.com</p> for any 
 queries or support</p>

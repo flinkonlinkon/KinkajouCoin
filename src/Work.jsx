@@ -224,6 +224,187 @@
 // }
 
 
+// import React from 'react';
+// import Tilt from 'react-parallax-tilt';
+// import { motion } from 'framer-motion';
+// import cf from './assets/cf.png';
+// import cm from './assets/cm.png';
+// import am from './assets/am.png';
+
+// const cardContainer = {
+//   offscreen: { opacity: 0, y: 80 },
+//   onscreen: {
+//     opacity: 1,
+//     y: 0,
+//     transition: {
+//       type: "spring",
+//       bounce: 0.2,
+//       duration: 1,
+//       staggerChildren: 0.2,
+//     },
+//   },
+// };
+
+// const childVariant = {
+//   offscreen: { opacity: 0, y: 20 },
+//   onscreen: { opacity: 1, y: 0, transition: { duration: 0.5 } },
+// };
+
+// export default function Work() {
+//   const cards = [
+//     {
+//       title: 'Buy KinkajouCoins',
+//       img: cf,
+//       desc: `Easily purchase KinkajouCoins through our platform or participating cryptocurrency exchanges. Our user-friendly interface guides you through the process.`,
+//     },
+//     {
+//       title: 'Support Green Projects and Land Conservation',
+//       img: am,
+//       desc: `Every KinkajouCoin transaction contributes to purchasing carbon credits, securing land for conservation, and funding environmental sanctuaries.`,
+//     },
+//     {
+//       title: 'Watch Your Impact Grow',
+//       img: cm,
+//       desc: `Track how your KinkajouCoins contribute to projects like reforestation and wildlife protection. Your investments have real-world impact.`,
+//     }
+//   ];
+
+//   return (
+//     <div className='text-center px-4'>
+//       <h1 className='text-6xl font-semibold text-[#FFFFFF] mt-24 font-montserrat'>How it works</h1>
+
+//       <div className='flex justify-evenly mt-24 flex-wrap gap-y-12'>
+//         {cards.map((card, index) => (
+//           <Tilt
+//             key={index}
+//             tiltMaxAngleX={10}
+//             tiltMaxAngleY={10}
+//             glareEnable={true}
+//             glareMaxOpacity={0.15}
+//             glareColor="#ffffff"
+//             glarePosition="all"
+//             scale={1.02}
+//             transitionSpeed={1000}
+//             className='rounded-[10px]'
+//           >
+//             <motion.div
+//               className='w-[428px] h-[417px] bg-[#0F4F2A]/60 backdrop-blur-md p-6 text-left border border-[#34D399] rounded-[10px]'
+//               variants={cardContainer}
+//               initial="offscreen"
+//               whileInView="onscreen"
+//               viewport={{ once: true, amount: 0.5 }}
+//             >
+//               <motion.h1 className='text-[18px] text-[#FFFFFF] mb-10 font-poppins' variants={childVariant}>
+//                 {card.title}
+//               </motion.h1>
+
+//               <motion.div className='w-[318px] h-[156px] mx-auto mb-4' variants={childVariant}>
+//                 <img className='object-cover' src={card.img} alt={card.title} />
+//               </motion.div>
+
+//               <motion.p className='text-[14px] text-[#FFFFFF] font-poppins' variants={childVariant}>
+//                 {card.desc}
+//               </motion.p>
+//             </motion.div>
+//           </Tilt>
+//         ))}
+//       </div>
+//     </div>
+//   );
+// }
+
+
+// import React from 'react';
+// import Tilt from 'react-parallax-tilt';
+// import { motion } from 'framer-motion';
+// import cf from './assets/cf.png';
+// import cm from './assets/cm.png';
+// import am from './assets/am.png';
+
+// const cardContainer = {
+//   offscreen: { opacity: 0, y: 80 },
+//   onscreen: {
+//     opacity: 1,
+//     y: 0,
+//     transition: {
+//       type: "spring",
+//       bounce: 0.2,
+//       duration: 1,
+//       staggerChildren: 0.2,
+//     },
+//   },
+// };
+
+// const childVariant = {
+//   offscreen: { opacity: 0, y: 20 },
+//   onscreen: { opacity: 1, y: 0, transition: { duration: 0.5 } },
+// };
+
+// export default function Work() {
+//   const cards = [
+//     {
+//       title: 'Buy KinkajouCoins',
+//       img: cf,
+//       desc: `Easily purchase KinkajouCoins through our platform or participating cryptocurrency exchanges. Our user-friendly interface guides you through the process.`,
+//     },
+//     {
+//       title: 'Support Green Projects and Land Conservation',
+//       img: am,
+//       desc: `Every KinkajouCoin transaction contributes to purchasing carbon credits, securing land for conservation, and funding environmental sanctuaries.`,
+//     },
+//     {
+//       title: 'Watch Your Impact Grow',
+//       img: cm,
+//       desc: `Track how your KinkajouCoins contribute to projects like reforestation and wildlife protection. Your investments have real-world impact.`,
+//     }
+//   ];
+
+//   return (
+//     <div className='text-center px-4'>
+//       <h1 className='text-6xl font-semibold text-[#FFFFFF] mt-24 font-montserrat'>How it works</h1>
+
+//       <div className='flex justify-evenly mt-24 flex-wrap gap-y-12'>
+//         {cards.map((card, index) => (
+//           <Tilt
+//             key={index}
+//             tiltMaxAngleX={10}
+//             tiltMaxAngleY={10}
+//             glareEnable={true}
+//             glareMaxOpacity={0.15}
+//             glareColor="#ffffff"
+//             glarePosition="all"
+//             scale={1.02}
+//             transitionSpeed={1000}
+//             className='rounded-[10px]'
+//           >
+//             <motion.div
+//               className='w-[428px] h-[417px] bg-[#0F4F2A]/60 backdrop-blur-md p-6 text-center border border-[#34D399] rounded-[10px]'
+//               variants={cardContainer}
+//               initial="offscreen"
+//               whileInView="onscreen"
+//               viewport={{ once: true, amount: 0.5 }}
+//             >
+//               <motion.h1 className='text-[18px] text-[#FFFFFF] mb-10 font-poppins' variants={childVariant}>
+//                 {card.title}
+//               </motion.h1>
+
+//               <motion.div className='w-[318px] h-[156px] mx-auto mb-4 flex justify-center items-center' variants={childVariant}>
+//                 <img className='object-contain mx-auto max-h-full max-w-full' src={card.img} alt={card.title} />
+//               </motion.div>
+
+//               <motion.p className='text-[14px] text-[#FFFFFF] font-poppins' variants={childVariant}>
+//                 {card.desc}
+//               </motion.p>
+//             </motion.div>
+//           </Tilt>
+//         ))}
+//       </div>
+//     </div>
+//   );
+// }
+
+
+
 import React from 'react';
 import Tilt from 'react-parallax-tilt';
 import { motion } from 'framer-motion';
@@ -273,7 +454,8 @@ export default function Work() {
     <div className='text-center px-4'>
       <h1 className='text-6xl font-semibold text-[#FFFFFF] mt-24 font-montserrat'>How it works</h1>
 
-      <div className='flex justify-evenly mt-24 flex-wrap gap-y-12'>
+      {/* Grid container */}
+      <div className='grid grid-cols-3 gap-8 mt-24'>
         {cards.map((card, index) => (
           <Tilt
             key={index}
@@ -288,7 +470,7 @@ export default function Work() {
             className='rounded-[10px]'
           >
             <motion.div
-              className='w-[428px] h-[417px] bg-[#0F4F2A]/60 backdrop-blur-md p-6 text-left border border-[#34D399] rounded-[10px]'
+              className='w-full h-[417px] bg-[#0F4F2A]/60 backdrop-blur-md p-6 text-center border border-[#34D399] rounded-[10px]'
               variants={cardContainer}
               initial="offscreen"
               whileInView="onscreen"
@@ -298,8 +480,8 @@ export default function Work() {
                 {card.title}
               </motion.h1>
 
-              <motion.div className='w-[318px] h-[156px] mx-auto mb-4' variants={childVariant}>
-                <img className='object-cover' src={card.img} alt={card.title} />
+              <motion.div className='w-[318px] h-[156px] mx-auto mb-4 flex justify-center items-center' variants={childVariant}>
+                <img className='object-contain mx-auto max-h-full max-w-full' src={card.img} alt={card.title} />
               </motion.div>
 
               <motion.p className='text-[14px] text-[#FFFFFF] font-poppins' variants={childVariant}>

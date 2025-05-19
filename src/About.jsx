@@ -6,8 +6,8 @@ export default function About() {
     <div className='flex justify-evenly mt-24'>
 
         <div className='w-[628px] h-[376px]'>
-             <h1 className="text-[60px] p-1 font-bold bg-gradient-to-r from-[#C5FFA9] to-[#00CC55] bg-clip-text text-transparent w-[597px] h-[180px] mt-2 mb-3 font-openSans">
-  About KinkajouCoin
+            <h1 className="text-[60px] p-1 font-bold bg-gradient-to-r from-[#C5FFA9] to-[#00CC55] bg-clip-text text-transparent mt-2 mb-3 font-openSans leading-tight">
+  About<br></br> KinkajouCoin
 </h1>
 
 <p className='text-[#C3C3C3] mb-5 mt-5 font-openSans'>

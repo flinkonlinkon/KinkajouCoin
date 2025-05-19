@@ -51,7 +51,7 @@ const CountdownTimer = () => {
       ].map((item, index) => (
         <div
           key={index}
-          className="w-16 h-20 flex flex-col justify-center items-center border border-green-500 rounded-md"
+          className="w-[99px] h-[115px] flex flex-col justify-center items-center border border-green-500 rounded-md"
         >
           <span className="text-white text-2xl font-bold">{item.value}</span>
           <span className="text-gray-400 text-sm">{item.label}</span>
